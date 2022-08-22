@@ -25,24 +25,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="./nos_produits.html" id="menu-produits">Nos produits</a>
+              <a class="nav-link" href="./?action=produits" id="menu-produits">Nos produits</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./nos_packs.html" id="menu-packs">Nos packs</a>
+              <a class="nav-link" href="./?action=packs" id="menu-packs">Nos packs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./a_propos.html" id="menu-propos">A propos</a>
+              <a class="nav-link" href="./?action=apropos" id="menu-propos">A propos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./forums.html" id="menu-forums">Forums</a>
+              <a class="nav-link" href="./?action=forum" id="menu-forums">Forums</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contact.html" id="menu-contact">Contact</a>
+              <a class="nav-link" href="./?action=contact" id="menu-contact">Contact</a>
             </li>
           </ul>
           <ul class="navbar-nav text-center">
             <li id="nav-ico">
-              <a class="nav-link sup-padding" href="./espace_client.html"><img class="img-compte"
+              <a class="nav-link sup-padding" href="./?action=connexion"><img class="img-compte"
                   src="./img/compte.png" alt="espace client"></a>
             </li>
             <li id="nav-ico">
