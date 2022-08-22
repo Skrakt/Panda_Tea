@@ -10,6 +10,7 @@ function controleurPrincipal($action) {
     $lesActions["forum"] = "forum.php";
     $lesActions["contact"] = "contact.php";
     $lesActions["connexion"] = "connexion.php";
+    $lesActions["registerUser"] = "registerUser.php";
     if (array_key_exists($action, $lesActions)) {
         return $lesActions[$action];
     } 

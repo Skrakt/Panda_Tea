@@ -1,5 +1,8 @@
 <?php
 
+include 'PDO.php';
+
+connect_bd();
 
 include "getRacine.php";
 include "$racine/controleur/controleurPrincipal.php";
@@ -13,6 +16,7 @@ else {
 
 $fichier = controleurPrincipal($action);
 include "$racine/controleur/$fichier";
+
 ?>
      
 

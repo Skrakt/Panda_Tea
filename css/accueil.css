@@ -104,7 +104,7 @@
 }
 
 .selection {
-    background-image: url("./img/accueil/instagram-feed4_360x.jpg");
+    background-image: url("../img/accueil/instagram-feed4_360x.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -112,7 +112,7 @@
 }
 
 .enfant {
-    background-image: url("./img/accueil/infusions_animaux_540x.jpg");
+    background-image: url("../img/accueil/infusions_animaux_540x.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -147,7 +147,7 @@
 .the-matcha {
     grid-column: 1;
     grid-row: 1;
-    background-image: url("./img/accueil/matchalate2.png");
+    background-image: url("../img/accueil/matchalate2.png");
     background-size: cover;
     background-position: center;
     padding: 103% 2% 2% 2%;
@@ -157,7 +157,7 @@
 .fouet-matcha {
     grid-column: 2;
     grid-row: 1;
-    background-image: url("./img/accueil/fouet_matcha.jpg");
+    background-image: url("../img/accueil/fouet_matcha.jpg");
     background-size: cover;
     background-position: center;
     padding: 100% 2% 2% 2%;

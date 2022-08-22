@@ -1,5 +1,5 @@
 <main>
-    <img class="img-background" src="./img/accueil/panda-tea-background.jpg" alt="bannière">
+    <img class="img-background" src="img/accueil/panda-tea-background.jpg" alt="bannière">
     <h1 class="T1">Thés & Infusions bien-être pour toute la famille</h1>
     <h2 class="T2">100% Biologiques. Sachets en coton mousseline.</h2>
 
@@ -47,7 +47,7 @@
         </div>
       </article>
       <article class="video-matcha">
-        <video class="video" src="./img/accueil/matchalate.mp4">
+        <video class="video" src="img/accueil/matchalate.mp4">
       </article>
     </section>
 
