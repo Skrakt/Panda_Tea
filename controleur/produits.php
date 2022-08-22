@@ -1,7 +1,7 @@
 
 <?php
 
-$cssFile="$racine/css/nos_produits.css";
+$cssFile="./css/nos_produits.css";
 
 
     include "$racine/vue/entete.html.php";
