@@ -1,6 +1,5 @@
 <?php
-
-include 'PDO.php';
+include './model/PDO.php';
 
 connect_bd();
 

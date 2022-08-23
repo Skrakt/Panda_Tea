@@ -1,4 +1,7 @@
 <main>
+
+    <?php  echo "<link rel='stylesheet' href='" . $cssFile . "'>"; ?>
+
         <section class="forums">
             <article class="article">
                 <h2 class="T1">TITRE ARTICLE</h2>

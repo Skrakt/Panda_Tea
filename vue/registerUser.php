@@ -1,4 +1,6 @@
-<form action="controleur/registerUser.php" method="post" class="col-md-5 marge">
+<?php  echo "<link rel='stylesheet' href='" . $cssFile . "'>"; ?>
+
+<form action="./?action=registerUser" method="post" class="col-md-5 marge">
     <h1 class="T1">Je créer mon compte</h1>
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Nom</label>

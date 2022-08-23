@@ -1,5 +1,8 @@
 
  <main>
+
+    <?php  echo "<link rel='stylesheet' href='" . $cssFile . "'>"; ?>
+    
  <h1 class="T1">Contactez-nous</h1>
  <p class="T2">Notre équipe vous répond du lundi au vendredi de 9h à 18H et même parfois plus tard à l'adresse
      contact@pandatea.fr

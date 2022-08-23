@@ -2,7 +2,8 @@
     <img class="img-background" src="img/accueil/panda-tea-background.jpg" alt="bannière">
     <h1 class="T1">Thés & Infusions bien-être pour toute la famille</h1>
     <h2 class="T2">100% Biologiques. Sachets en coton mousseline.</h2>
-
+    <?php  echo "<link rel='stylesheet' href='" . $cssFile . "'>"; ?>
+    
     <!--------------------------------------------------------FLEX--------------------------------------------------->
 
     <section class="nouveautes">

@@ -1,3 +1,5 @@
+<?php  echo "<link rel='stylesheet' href='" . $cssFile . "'>"; ?>
+
 <footer class="footer-grid">
     <article class="specialites">
       <p class="F1">NOS SPECIALITÉS</p>

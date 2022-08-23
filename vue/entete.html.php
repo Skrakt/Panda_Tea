@@ -16,7 +16,7 @@
   <header>
     <nav class="navbar fixed-top navbar-expand-lg" id="nav-bar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./?action=accueil"><img
+        <a class="navbar-brand" action="accueil.php" type="button"><img
             src="./img/compte-panda-tea.svg" alt="logo site"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

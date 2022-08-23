@@ -1,4 +1,5 @@
 <main>
+        <?php  echo "<link rel='stylesheet' href='" . $cssFile . "'>"; ?>
         <h1 class="T1">Qui sommes-nous ?</h1>
         <p class="T2">Nous sommes une marque française de thés et infusions à base d'ingrédients naturels et certifiés
             biologiques par Ecocert. Thibault, fondateur de Panda Tea, est passionné de plantes et docteur en pharmacie.
