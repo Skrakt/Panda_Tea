@@ -11,14 +11,15 @@
 
         connect_create_bd_user($email, $mdp, $prenom, $nom);
         Header('Location:../connexion.php');
+        exit();
     }
     else {
+        echo "<script> location.href='../controleur/connexion.php'; </script>";
+        Header('Location:../controleur/connexion.php');
         Alert("Erreur dans la boîte de dialogue");
+        exit();
     }
     
-    include '../vue/entete.html.php';
-    include '../vue/connexion.php';
-    include '../vue/registerUser.php';
 
 
 ?>

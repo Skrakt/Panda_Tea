@@ -8,7 +8,7 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <?php  echo "<link rel='stylesheet' href='" . $cssFile . "'>"; ?>
+  <?php  echo "<link rel='stylesheet' href='" . $cssFile . "';" ?>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
   <header>
     <nav class="navbar fixed-top navbar-expand-lg" id="nav-bar">
       <div class="container-fluid">
-        <a class="navbar-brand" action="accueil.php" type="button"><img
+        <a class="navbar-brand" href="./?action=index" type="button"><img
             src="./img/compte-panda-tea.svg" alt="logo site"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

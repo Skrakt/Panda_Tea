@@ -21,8 +21,6 @@ function connect_create_bd_user($email, $nom, $prenom, $mdp){
     
     Header("Location:../index.php");
 
-    
-
 }
 
 function form_Verif($email, $mdp, $prenom, $nom ) {

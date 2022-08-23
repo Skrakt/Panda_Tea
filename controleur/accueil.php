@@ -1,5 +1,6 @@
 <?php
 
+
 $cssFile="./css/accueil.css";
 
     include "$racine/vue/entete.html.php";

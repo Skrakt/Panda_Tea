@@ -1,10 +1,6 @@
 <?php
-include './model/PDO.php';
 
-connect_bd();
-
-include "getRacine.php";
-include "$racine/controleur/controleurPrincipal.php";
+include "./controleur/controleurPrincipal.php";
 
 if (isset($_GET["action"])) {
     $action = $_GET["action"];
